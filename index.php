@@ -1,5 +1,5 @@
 <?php
-require ($_SERVER['DOCUMENT_ROOT'].'/header.php');
+include ($_SERVER['DOCUMENT_ROOT'].'/header.php');
 ?>
 <section class="content jumbotron first" id="main" role="main" tabindex="-1">
 	<div class="container">
@@ -15,10 +15,12 @@ require ($_SERVER['DOCUMENT_ROOT'].'/header.php');
 </section>
 <section class="content second" role="websites" tabindex="-1">
 	<div class="container">
-		<div class="row">
+		<div class="row text-center">
 			<div class="col-md-6">
+				<span aria-hidden="true" title="Websites">W</span>
 			</div>
 			<div class="col-md-6">
+				<span aria-hidden="true" title="Applications">A</span>
 			</div>
 		</div>
 	</div>
@@ -50,5 +52,5 @@ require ($_SERVER['DOCUMENT_ROOT'].'/header.php');
 	</div>
 </div>
 <?php
-require ($_SERVER['DOCUMENT_ROOT'].'/footer.php');
+include ($_SERVER['DOCUMENT_ROOT'].'/footer.php');
 ?>
