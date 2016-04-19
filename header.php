@@ -23,14 +23,14 @@
 			</div>
 			<nav class="nav-main">
 				<ul>
-					<li>
+					<li class="hidden">
 						<a href="../">Home</a>
 					</li>
 					<li>
-						<a href="/portfolio">Portfolio</a>
+						<a href="#websites">Websites</a>
 					</li>
 					<li>
-						<a href="/contact">Contact</a>
+						<a href="#applications">Applications</a>
 					</li>
 				</ul>
 			</nav>
